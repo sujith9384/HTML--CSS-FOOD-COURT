@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@1,100;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@1,100;1,400&display=swap');
 :root{
-    --color-1:orange;
+    --color-1:#001542;
+    --color-2:#085454;
+    --color-3:#7A7A7A;
+    --color-4:#FFFFFF;
+    --color-5:#FFB30D;
+    --color-6:#7a7a7a69;
 }
+
 *{
     margin:0;
     padding:0;
@@ -21,4 +27,35 @@ body{
     display: flex;
     justify-content: space-around;
     z-index: 1;
+}
+.navbar-banner{
+    color:var(--color-4);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 50px;
+
+}
+.nav-cart{
+    color: var(--color-4);
+    width: 40px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+    text-align: left;
+
+}
+.cart-items{
+    position: absolute;
+    top: 10px;;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: var(--color-3);
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
 }
