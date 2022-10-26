@@ -75,11 +75,29 @@ body{
     width: 100%;
     transform: translate(-50%,-50%);
     padding: 10px;
+    text-align: center;
 } 
 .brand-banner h3{
     font-size: 70px;
     font-family:'Dancing script',cursive;
     text-align: center;
     color: var(--color-5);
-    text-shadow: 2px 1px 1px var(--color-2);
+    text-shadow: 2px 1px 1px var(--color-2),
+    5px 1px  2px var(--color-1);
+    cursor: pointer; 
+    transition: transform 0.5s ease-out;
+    animation:1s ease-out 0s 1 slideanimation;
 }   
+.brand-banner h3:hover{
+    transform: scale(1.02);
+}
+@keyframes slideanimation{
+    0%{transform: translateY(-100%);}
+    100%{transform: translateY(0);}
+}
+.brand-banner p{
+    font-size: 16px;
+    color: var(--color-4);
+    text-shadow: 1px 0px 1px var(--color-5);
+    font-weight: 600px;
+}
