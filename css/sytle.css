@@ -114,7 +114,6 @@ body{
     height: 50px;
     line-height: 50px;
     width: 80px;
-    
     text-align: center;
 }
 .menu-item ul li a{
@@ -125,4 +124,14 @@ body{
 .menu-item ul li a:hover{
     color:var(--color-5);
     text-decoration: none;
+}
+#txtFoodType{
+    background-color: var(--color-5);
+    color: var(--color-2);
+    padding-top: 10px; 
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Great Vibes',cursive;
+    text-shadow:2px 1px 1px var(--color-4);
 }
