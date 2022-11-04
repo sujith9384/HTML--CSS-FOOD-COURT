@@ -150,6 +150,7 @@ body{
     background-color: var(--color-4);
     box-shadow: rgba(0,0,0,0.15)1.95px 1.95px 2.6px;
     transition: box-shadow 0.3s ease-in-out;
+    position: relative;
 
 }
 .product:hover{
@@ -186,4 +187,22 @@ body{
 }
 .product span{
     color: var(--color-4);
+}
+.btn-item{
+    border: none;
+    padding: 12px 8px 12px 8px;
+    background-color: var(--color-3);
+    color: var(--color-4);
+    font: size 15px;
+    position:absolute;
+    top: 0px;
+
+}
+.btn-fav{
+    border: none;
+    background-color: transparent;
+    color: var(--color-4);
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
