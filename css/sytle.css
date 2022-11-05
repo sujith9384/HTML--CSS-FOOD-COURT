@@ -143,6 +143,7 @@ body{
     minmax(260px,1fr));
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
+    margin-top: 20px;
 
 }
 
@@ -196,7 +197,13 @@ body{
     font: size 15px;
     position:absolute;
     top: 0px;
+    transition: background-color 0.3s ease-in;
 
+
+}
+.btn-item:hover{
+    background-color: var(--color-1);
+ 
 }
 .btn-fav{
     border: none;
@@ -205,4 +212,14 @@ body{
     position: absolute;
     top: 5px;
     right: 5px;
+}
+.btn-fav:hover{
+    color: var(--color-5);
+}
+.footer{
+    width: 100%;
+    background-color: var(--color-2);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
